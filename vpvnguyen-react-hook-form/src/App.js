@@ -5,7 +5,7 @@ import fields from "./fields";
 const program = {
   rules: {
     forms: {
-      enrollment: {
+      awesomeForm: {
         ...fields,
       },
     },
@@ -13,7 +13,7 @@ const program = {
 };
 
 function App() {
-  const programFields = Object.keys(program?.rules?.forms?.enrollment);
+  const programFields = Object.keys(program?.rules?.forms?.awesomeForm);
 
   const {
     register,
